@@ -9,7 +9,6 @@ import Footer from "./sections/Footer";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
-import Testimonials from "./sections/Testimonials";
 import React from "react";
 export default function App() {
   const [introDone, setIntroDone] = React.useState(false);
@@ -29,7 +28,6 @@ export default function App() {
           <Skills />
           <Projects />
           <Experience />
-          <Testimonials />
           <Contact />
           <Footer />
         </div>
